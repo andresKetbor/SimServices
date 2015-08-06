@@ -4,14 +4,29 @@
   <session-factory>
     <property name="dialect">org.hibernate.dialect.MySQLDialect</property>
     <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
-    <property name="hibernate.connection.url">jdbc:mysql://localhost/SIM</property>
-    <property name="connection.username">root</property>
+    <property name="hibernate.connection.url">jdbc:mysql://localhost/SIM2</property>
+    <property name="hibernate.connection.username">root</property>
     <!--property name="hibernate.connection.password">nuevo_pass</property-->
+    <mapping class="org.sim.services.entities.Accion"/>
+    <mapping class="org.sim.services.entities.RolAccion"/>
+    <mapping class="org.sim.services.entities.Visita"/>
+    <mapping class="org.sim.services.entities.TensionArterial"/>
+    <mapping class="org.sim.services.entities.Log"/>
+    <mapping class="org.sim.services.entities.Nota"/>
+    <mapping class="org.sim.services.entities.FreceunciaRespiratoria"/>
+    <mapping class="org.sim.services.entities.NivelGlucosa"/>
+    <mapping class="org.sim.services.entities.LibroReport"/>
+    <mapping class="org.sim.services.entities.Alerta"/>
+    <mapping class="org.sim.services.entities.Medicion"/>
+    <mapping class="org.sim.services.entities.Mensaje"/>
+    <mapping class="org.sim.services.entities.Saturometria"/>
+    <mapping class="org.sim.services.entities.Paciente"/>
+    <mapping class="org.sim.services.entities.AdministracionMedicamento"/>
+    <mapping class="org.sim.services.entities.Permiso"/>
+    <mapping class="org.sim.services.entities.Ecg"/>
+    <mapping class="org.sim.services.entities.Rol"/>
+    <mapping class="org.sim.services.entities.Temperatura"/>
+    <mapping class="org.sim.services.entities.Usuario"/>
+    <mapping class="org.sim.services.entities.common.GenericHome"/>
   </session-factory>
-  
-  
-    
-  
-  
-  
 </hibernate-configuration>

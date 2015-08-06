@@ -6,7 +6,6 @@
 
 package org.sim.service.resources;
 
-import javax.ejb.EJB;
 import javax.ws.rs.GET;
 import javax.ws.rs.POST;
 import javax.ws.rs.Path;
